@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+
+<form class="formulario">
+	<label>nombre</label>
+	<input type="text" name="" id="nombre" placeholder="ingrese su nombre">
+<label>apellido</label>
+<input type="text" name="" id="apellido" placeholder="ingrese su apellido">
+<label>edad</label>
+<input type="number" name="" id="edad" placeholder="ingrese su edad">
+<div>
+	<button onclick="buscar()">buscar</button>
+<button onclick="mas()" type="button">ingresar</button>
+<button onclick="listado()">listado</button>
+<button onclick="borrar()"><span class="material-symbols-outlined">delete</span></button>
+</div>
+</form>
+<table id="listado">
+	<th>nombre</th>
+<th>apellido</th>
+<th>edad</th>
+<th>editar</th>
+</table>
+
+
+
+
+<script type="text/javascript" src="func01.js"></script>
+</body>
+</html>
